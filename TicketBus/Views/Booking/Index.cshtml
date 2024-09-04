@@ -1,0 +1,495 @@
+﻿
+@using System.Security.Claims;
+@using TicketBus.ViewModel
+@model PointViewModel
+@{
+    Random rnd = new Random();
+    int tkn = rnd.Next();
+}
+<style type="text/css">
+body{margin-top:20px;
+background-color: #f1f3f7;
+}
+
+.card {
+    margin-bottom: 24px;
+    -webkit-box-shadow: 0 2px 3px #e4e8f0;
+    box-shadow: 0 2px 3px #e4e8f0;
+}
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #eff0f2;
+    border-radius: 1rem;
+}
+.activity-checkout {
+    list-style: none
+}
+
+.activity-checkout .checkout-icon {
+    position: absolute;
+    top: -4px;
+    left: -24px
+}
+
+.activity-checkout .checkout-item {
+    position: relative;
+    padding-bottom: 24px;
+    padding-left: 35px;
+    border-left: 2px solid #f5f6f8
+}
+
+.activity-checkout .checkout-item:first-child {
+    border-color: #3b76e1
+}
+
+.activity-checkout .checkout-item:first-child:after {
+    background-color: #3b76e1
+}
+
+.activity-checkout .checkout-item:last-child {
+    border-color: transparent
+}
+
+.activity-checkout .checkout-item.crypto-activity {
+    margin-left: 50px
+}
+
+.activity-checkout .checkout-item .crypto-date {
+    position: absolute;
+    top: 3px;
+    left: -65px
+}
+
+
+
+.avatar-xs {
+    height: 1rem;
+    width: 1rem
+}
+
+.avatar-sm {
+    height: 2rem;
+    width: 2rem
+}
+
+.avatar {
+    height: 3rem;
+    width: 3rem
+}
+
+.avatar-md {
+    height: 4rem;
+    width: 4rem
+}
+
+.avatar-lg {
+    height: 5rem;
+    width: 5rem
+}
+
+.avatar-xl {
+    height: 6rem;
+    width: 6rem
+}
+
+.avatar-title {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #3b76e1;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-weight: 500;
+    height: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%
+}
+
+.avatar-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 8px
+}
+
+.avatar-group .avatar-group-item {
+    margin-left: -8px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+.avatar-group .avatar-group-item:hover {
+    position: relative;
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px)
+}
+
+.card-radio {
+    background-color: #fff;
+    border: 2px solid #eff0f2;
+    border-radius: .75rem;
+    padding: .5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block
+}
+
+.card-radio:hover {
+    cursor: pointer
+}
+
+.card-radio-label {
+    display: block
+}
+
+.edit-btn {
+    width: 35px;
+    height: 35px;
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+    right: 25px;
+    margin-top: -50px
+}
+
+.card-radio-input {
+    display: none
+}
+
+.card-radio-input:checked+.card-radio {
+    border-color: #3b76e1!important
+}
+
+
+.font-size-16 {
+    font-size: 16px!important;
+}
+.text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.47rem 0.75rem;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #545965;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #e2e5e8;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.75rem;
+    -webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
+
+.edit-btn {
+    width: 35px;
+    height: 35px;
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+    right: 25px;
+    margin-top: -50px;
+}
+
+.ribbon {
+    position: absolute;
+    right: -26px;
+    top: 20px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 1px 22px;
+    font-size: 13px;
+    font-weight: 500
+}
+</style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.css" integrity="sha256-NAxhqDvtY0l4xn+YVa6WjAcmd94NNfttjNsDmNatFVc=" crossorigin="anonymous" />
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+<div class="container">
+
+    <form id="bookingForm" asp-action="BookTicket" asp-controller="Booking" method="post">
+        <input type="hidden" value="@tkn" name="TicketNumber" />
+        <input type="hidden" value="@Model.bus_name" name="busName" />
+        <input type="hidden" value="@Model.distance" name="distance" />
+        <input type="hidden" value="@Model.StartDate" name="startDate" />
+        <input type="hidden" value="" name="subtotal" />
+        <input type="hidden" value="" name="total"  />
+        <input type="hidden" value="" name="Discount" />
+        <input type="hidden" name="CustomerId" value="@Model.CustomerId">
+        <input type="hidden" name="AppUserId" value="@Model.CustomerId">
+        <input type="hidden" value="@Model.price" name="Price" />
+    <div class="row">
+        <div class="col-xl-8">
+            <div class="card">
+                <div class="card-body">
+                    <ol class="activity-checkout mb-0 px-4 mt-3">
+                        <li class="checkout-item">
+                            <div class="avatar checkout-icon p-1">
+                                <div class="avatar-title rounded-circle bg-primary">
+                                    <i class="bx bxs-receipt text-white font-size-20"></i>
+                                </div>
+                            </div>
+                            <div class="feed-item-list">
+                                <div>
+                                    <h5 class="font-size-16 mb-1">Ticket Info</h5>
+                                    <div class="mb-3">
+                                            <div>
+                                                <div class="row">
+                                                    <div class="col-lg-4">
+                                                    <div class="mb-3">
+                                                            <label class="form-label" for="billing-name">Passenger Name</label>
+                                                            <input type="text" name="CustomerName" class="form-control" id="CustomerName" placeholder="Enter name" value="@Model.CustomerName" required>
+                                                    </div>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <div class="mb-3">
+                                                            <label class="form-label" for="billing-email-address">Email Address</label>
+                                                            <input type="email" name="CustomerEmail" class="form-control" id="billing-email-address" placeholder="Enter email" value="@Model.CustomerEmail" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <div class="mb-3">
+                                                            <label class="form-label" for="billing-phone">Phone</label>
+                                                            <input type="text" name="CustomerPhone" class="form-control" id="billing-phone" placeholder="Enter Phone no." value="@Model.CustomerPhone" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <div class="mb-4 mb-lg-0">
+                                                            <label class="form-label">Ticket Nomarl</label>
+                                                            <select name="TicketNomarl" class="form-control form-select" title="Adult" onchange="updateTicketQuantity()">
+                                                                <option value="0">0</option>
+                                                                <option value="1">1</option>
+                                                                <option value="2">2</option>
+                                                                <option value="3">3</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <div class="mb-4 mb-lg-0">
+                                                            <label class="form-label">Children (5-12 years old)</label>
+                                                            <select name="TicketChild" class="form-control form-select" title="Adult" onchange="updateTicketQuantity()">
+                                                                <option value="0">0</option>
+                                                                <option value="1">1</option>
+                                                                <option value="2">2</option>
+                                                                <option value="3">3</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <div class="mb-4 mb-lg-0">
+                                                            <label class="form-label">Ticket Senior Citizen</label>
+                                                            <select name="TicketAdult" class="form-control form-select" title="Adult" onchange="updateTicketQuantity()">
+                                                                <option value="0">0</option>
+                                                                <option value="1">1</option>
+                                                                <option value="2">2</option>
+                                                                <option value="3">3</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <div class="mb-3">
+                                                            <label class="form-label" for="billing-name">Start Point</label>
+                                                            <input type="text" name="StartPoint" class="form-control" value="@Model.start_point" disabled>
+                                                            <input type="hidden" name="StartPoint" class="form-control" value="@Model.start_point">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <div class="mb-3">
+                                                            <label class="form-label" for="billing-name">End Point</label>
+                                                            <input type="hidden" name="EndPoint" class="form-control" value="@Model.end_point">
+                                                            <input type="text" name="EndPoint" class="form-control" value="@Model.end_point" disabled>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12 mt-4">
+                                                        <label class="form-label">Ticket Quantity:</label>
+                                                        <span id="ticketQuantityDisplay">0</span>
+                                                        <input type="hidden" id="ticketQuantity" name="ticketQuantity" value="">
+                                                    </div>
+                                                    <div class="col-lg-12 mt-4">
+                                                        <label class="form-label">Time</label>
+                                                        <span id="Time">@Model.start_time : @Model.end_time</span>
+                                                        <input type="hidden" id="start_time" name="start_time" value="@Model.start_time">
+                                                        <input type="hidden" id="end_time" name="end_time" value="@Model.end_time">
+                                                    </div>
+
+                                                    <!-- Đoạn mã JavaScript -->
+                                                    <script>
+                                                        var price = @Model.price;
+                                                        document.getElementById("ticketQuantity").value = totalTickets;
+
+                                                        // Tính giá trị số được nhân
+                                                        var multipliedValue = price * totalTickets;
+
+                                                        // Hiển thị kết quả vào phần tử HTML có id là "ticketQuantity"
+                                                        document.getElementById("ticketQuantity").innerText = multipliedValue;
+                                                        function updateTicketQuantity() {
+                                                            var price = @Model.price;
+                                                            //console.log(price);
+
+                                                           
+
+
+
+                                                            // Lấy số lượng vé từ các menu thả xuống
+                                                            const ticketNomarl = parseInt(document.getElementsByName("TicketNomarl")[0].value);
+                                                            const ticketChild = parseInt(document.getElementsByName("TicketChild")[0].value);
+                                                            const ticketAdult = parseInt(document.getElementsByName("TicketAdult")[0].value);
+                                                            
+                                                            // Tính tổng số vé
+                                                            const totalTickets = ticketNomarl + ticketChild + ticketAdult;
+
+                                                            var subtotal = price * totalTickets;
+                                                            var discount = (price * ticketChild * 50 / 100) + (price * ticketAdult * 30 / 100)
+                                                            var total = subtotal - discount;
+                                                            console.log(total);
+                                                            document.querySelector('input[name="subtotal"]').value = subtotal;
+                                                            document.querySelector('input[name="total"]').value = total;
+                                                            document.querySelector('input[name="Discount"]').value = discount;
+                                                            // Hiển thị tổng số vé lên trang
+                                                            document.getElementById("ticketQuantityDisplay").innerText = totalTickets;
+                                                            // Cập nhật giá trị cho trường input hidden
+                                                            document.getElementById("ticketQuantity").value = totalTickets;
+                                                        }
+                                                    </script>
+                                                    <script>
+                                                        document.getElementById("bookingForm").addEventListener("submit", function (event) {
+                                                            var ticketQuantity = document.getElementById("ticketQuantity").value;
+                                                            if (ticketQuantity === "" || parseInt(ticketQuantity) === 0) {
+                                                                event.preventDefault(); // Ngăn chặn việc submit nếu giá trị rỗng hoặc bằng 0
+                                                                alert("Please select a value greater than 0.");
+                                                            }
+                                                        });
+                                                    </script>
+                                                </div>
+                                                
+                                            </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                       
+                        <li class="checkout-item">
+                            <div class="avatar checkout-icon p-1">
+                                <div class="avatar-title rounded-circle bg-primary">
+                                    <i class="bx bxs-wallet-alt text-white font-size-20"></i>
+                                </div>
+                            </div>
+                            <div class="feed-item-list">
+                                <div>
+                                    <h5 class="font-size-16 mb-1">Payment Info</h5>
+                                </div>
+                                <div>
+                                    <h5 class="font-size-14 mb-3">Payment method :</h5>
+                                    <div class="row">
+                                        <div class="col-lg-3 col-sm-6">
+                                            <div data-bs-toggle="collapse">
+                                                <label class="card-radio-label">
+                                                    <input type="radio" name="pay-method" id="pay-methodoption1" class="card-radio-input">
+                                                    <span class="card-radio py-3 text-center text-truncate">
+                                                        <i class="bx bx-credit-card d-block h2 mb-3"></i>
+                                                        Credit / Debit Card
+                                                    </span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-sm-6">
+                                            <div>
+                                                <label class="card-radio-label">
+                                                    <input type="radio" name="pay-method" id="pay-methodoption2" class="card-radio-input">
+                                                    <span class="card-radio py-3 text-center text-truncate">
+                                                        <i class="bx bxl-paypal d-block h2 mb-3"></i>
+                                                        Paypal
+                                                    </span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+                <div class="row my-4"><div class="col">
+                        <a href="javascript:history.go(-1)" class="btn btn-link text-muted">
+                        <i class="mdi mdi-arrow-left me-1"></i> Continue Shopping </a></div>
+                        <div class="col"><div class="text-end mt-2 mt-sm-0">
+                            <button type="submit" class="btn btn-success"> <i class="mdi mdi-cart-outline me-1">
+
+                            </i> Procced </button></div>
+                            </div>
+                            </div>
+            
+        </div>
+            <div class="col-xl-4">
+                <div class="card checkout-order-summary">
+                    <div class="card-body">
+                        <div class="p-3 bg-light mb-3">
+                            <h5 class="font-size-16 mb-0">Order Summary <span class="float-end ms-2">#@tkn</span></h5>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table table-centered mb-0 table-nowrap">
+                                <thead>
+                                    <tr>
+                                        <th class="border-top-0" scope="col" style="display: flex;">Bus Name</th>
+                                        <th class="border-top-0" scope="col">Price</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">
+                                            <span>@Model.bus_name</span>
+                                        </th>
+                                        <td>@Model.price VND</td>
+                                    </tr>
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                 </form>
+        </div>
+    </div>
+</div>

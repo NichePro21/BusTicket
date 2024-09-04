@@ -1,0 +1,199 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewBag.Title = "Confirm Ticket";
+}
+@using TicketBus.Models
+@model TicketInfo
+<style type="text/css">
+@@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+        background-color: #f1f3f7;
+font-family: 'Montserrat', sans-serif
+}
+.card {
+border: none
+}
+.logo {
+background-color: #eeeeeea8
+}
+.totals tr td {
+font-size: 13px
+}
+.footer {
+background-color: #eeeeeea8
+}
+.footer span {
+font-size: 12px
+}
+.product-qty span {
+font-size: 12px;
+color: #dedbdb
+}    
+</style>
+<div class="container mt-5 mb-5">
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="validation-summary-errors">
+                    @Html.ValidationSummary()
+                </div>
+                <div class="invoice p-5">
+                    <form method="post" action="@Url.Action("SubmitTicket", "Booking")">
+                        <input type="hidden" value="@Model.TicketNumber" name="TicketNumber" />
+                        <input type="hidden" value="@Model.BusName" name="busName" />
+                        <input type="hidden" value="@Model.Distance" name="distance" />
+                        <input type="hidden" value="@Model.StartDate" name="startDate" />
+                        <input type="hidden" value="@Model.Subtotal" name="subtotal" />
+                        <input type="hidden" value="@Model.Total" name="total" />
+                        <input type="hidden" value="@Model.Discount" name="Discount" />
+                        <input type="hidden" value="@Model.Price" name="Price" />
+                        <input type="hidden" value="@Model.CustomerName" name="CustomerName" />
+                        <input type="hidden" value="@Model.CustomerId" name="CustomerId" />
+                        <input type="hidden" value="@Model.CustomerPhone" name="CustomerPhone" />
+                        <input type="hidden" value="@Model.CustomerEmail" name="CustomerEmail" />
+                        <input type="hidden" value="@Model.EndPoint" name="EndPoint" />
+                        <input type="hidden" value="@Model.StartPoint" name="StartPoint" />
+                        <input type="hidden" value="@Model.TicketAdult" name="TicketAdult" />
+                        <input type="hidden" value="@Model.TicketNomarl" name="TicketNomarl" />
+                        <input type="hidden" value="@Model.TicketChild" name="TicketChild" />
+                        <input type="hidden" value="@Model.TicketQuantity" name="TicketQuantity" />
+                        <input type="hidden" value="@Model.start_time" name="start_time" />
+                        <input type="hidden" value="@Model.end_time" name="end_time" />
+                        <input type="hidden" value="@Model.OrderDate" name="OrderDate" />
+                        <input type="hidden" name="AppUserId" value="@Model.CustomerId">
+                    <h5>Confirm Your Order</h5> <span class="font-weight-bold d-block mt-4">Hello, @Model.CustomerName</span>
+                    <div class="payment border-top mt-3 mb-3 border-bottom table-responsive">
+                        <table class="table table-borderless">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="py-2">
+                                            <span class="d-block text-muted">Order Date</span> <span id="dateSpan"></span>
+                                            <script>
+                                                // Function to format the date in "dd MMM, yyyy" format
+                                                function formatDate(date) {
+                                                    const months = [
+                                                        "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+                                                    ];
+                                                    const day = date.getDate();
+                                                    const month = months[date.getMonth()];
+                                                    const year = date.getFullYear();
+                                                    return `${day} ${month}, ${year}`;
+                                                }
+
+                                               
+                                                // Get the current date and time
+                                                const currentDate = new Date();
+
+                                                // Format the Date and Time
+                                                const formattedDate = formatDate(currentDate);
+
+                                                // Display the formatted date and time
+                                                const dateSpan = document.getElementById("dateSpan");
+                                                dateSpan.innerText = `${formattedDate}`;
+                                            </script>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="py-2"> <span class="d-block text-muted">Order No</span> <span>#@Model.TicketNumber</div>
+                                    </td>
+                                    <td>
+                                        <div class="py-2"> <span class="d-block text-muted">Payment</span> <span><img src="https://img.icons8.com/color/48/000000/mastercard.png" width="20" /></span> </div>
+                                    </td>
+                                    <td>
+                                        <div class="py-2"> <span class="d-block text-muted">Passenger Info</span> 
+                                            <span>@Model.CustomerName - @Model.CustomerEmail - @Model.CustomerPhone</span>
+                                            </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="product border-bottom table-responsive">
+                        <table class="table table-borderless">
+                            <tbody>
+                                @if (Model.TicketNomarl > 0)
+                                {
+
+
+                                    <tr>
+
+                                        <td width="40%">
+                                            <span class="font-weight-bold">Ticket Nomarl</span>
+                                        </td>
+                                        <td width="20%">
+                                            <div class="text-right"><span class="font-weight-bold">@Model.TicketNomarl x @Model.Price VND</span> </div>
+                                        </td>
+                                    </tr>
+                                }
+                                @if (Model.TicketChild > 0)
+                                {
+                                    <tr>
+
+                                        <td width="40%">
+                                            <span class="font-weight-bold">Ticket Child</span>
+                                        </td>
+                                        <td width="20%">
+                                            <div class="text-right"> <span class="font-weight-bold">@Model.TicketChild x @Model.Price VND</span> </div>
+                                        </td>
+                                    </tr>
+                                }
+                                @if (Model.TicketAdult > 0)
+                                {
+                                    <tr>
+
+                                        <td width="40%">
+                                            <span class="font-weight-bold">Ticket Adult</span>
+                                        </td>
+                                        <td width="20%">
+                                            <div class="text-right"> <span class="font-weight-bold">@Model.TicketAdult x @Model.Price VND</span> </div>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="row d-flex justify-content-end">
+                        <div class="col-md-5">
+                            <table class="table table-borderless">
+                                <tbody class="totals">
+                                    <tr>
+                                        <td>
+                                            <div class="text-left"> <span class="text-muted">Subtotal</span> </div>
+                                        </td>
+                                        <td>
+                                            <div class="text-right"> <span>@Model.Subtotal VND</span> </div>
+                                        </td>
+                                    </tr>
+                                  
+                                    <tr>
+                                        <td>
+                                            <div class="text-left"> <span class="text-muted">Discount</span> </div>
+                                        </td>
+                                        <td>
+                                            <div class="text-right"> <span class="text-success">@Model.Discount VND</span> </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="border-top border-bottom">
+                                        <td>
+                                            <div class="text-left"> <span class="font-weight-bold">Total</span> </div>
+                                        </td>
+                                        <td>
+                                            <div class="text-right"> <span class="font-weight-bold">@Model.Total VND</span> </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                        <input type="submit" value="Submit" />
+                </form>
+                </div>
+                <div class="d-flex justify-content-between footer p-3"> <span>Need Help? visit our <a href="#"> help center</a></span> <span>12 June, 2020</span> </div>
+
+            </div>
+        </div>
+    </div>
+</div> 

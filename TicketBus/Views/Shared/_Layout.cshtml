@@ -1,0 +1,189 @@
+﻿﻿@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<AppUser> SignInManager
+@inject UserManager<AppUser> UserManager
+
+@{
+    var currentUser = await UserManager.GetUserAsync(User);
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Bus TicketWebApp</title>
+    <link rel="stylesheet" href="~/css/theme.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/custom.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/entypo.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/socicon.css" asp-append-version="true" />
+    <script src="https://kit.fontawesome.com/8aa18c8793.js" crossorigin="anonymous"></script>
+</head>
+<style text="text/css">
+    .navbar-container {
+        color: white;
+    }
+</style>
+<body>
+    <div class="navbar-container">
+        <div class="bg-dark navbar-dark" data-sticky="top">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand" asp-controller="Home" asp-action="Index" id="logo-text">Bus Ticket</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="icon-menu h4"></i>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            </li>
+                            @if (SignInManager.IsSignedIn(User) && User.IsInRole("admin"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="" asp-controller="Ticket" asp-action="Index">Manager Order</a>
+                                </li>
+                            }
+                            @if (SignInManager.IsSignedIn(User) && User.IsInRole("employee"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="" asp-controller="Ticket" asp-action="Index">Manager Ticket</a>
+                                </li>
+                            }
+                            @if (SignInManager.IsSignedIn(User) && User.IsInRole("user"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="" asp-controller="Ticket" asp-action="Index">History Order</a>
+                                </li>
+                            }
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Ticket" asp-action="Index">Check Ticket</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Blog" asp-action="Index">Blog</a>
+                            </li>
+
+                        </ul>
+                        @if (SignInManager.IsSignedIn(User))
+                        {
+                            <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle p-lg-0" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        @if (currentUser != null && !string.IsNullOrEmpty(currentUser.ProfileImageUrl))
+                                        {
+                                            <img alt="Image" src="@currentUser.ProfileImageUrl" class="avatar avatar-xs">
+                                        }
+                                        else
+                                        {
+                                            <img alt="Image" src="/img/avatar-male-4.jpg" class="avatar avatar-xs">
+                                        }
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="pagesDropdown">
+                                        <a class="dropdown-item" asp-controller="User" asp-action="Detail" asp-route-id="@currentUser?.Id">
+                                            <span class="h6 mb-0">View Profile</span>
+                                        </a>
+
+                                        <a class="dropdown-item" asp-controller="User" asp-action="EditProfile">
+                                            <span class="h6 mb-0">Edit Profile</span>
+                                        </a>
+                                        <a class="dropdown-item" asp-area="" asp-controller="Dashboard" asp-action="Index">
+                                            <span class="h6 mb-0">Dashboard</span>
+                                        </a>
+                                        <a class="dropdown-item" asp-area="" asp-controller="Account" asp-action="Logout">
+                                            <span su class="h6 mb-0">Logout</span>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        }
+                        else
+                        {
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a asp-area="" asp-controller="Account" asp-action="Register">Sign up</a>
+                                    <span>&nbsp;or&nbsp;</span>
+                                    <a asp-area="" asp-controller="Account" asp-action="Login">Sign in</a>
+                                </li>
+                            </ul>
+                        }
+
+                    </div>
+                    <!--end nav collapse-->
+                </nav>
+            </div>
+            <!--end of container-->
+        </div>
+    </div>
+    <div class="main-container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="bg-gray text-light footer-long">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index" id="logo-text">Bus Ticket</a>
+                    <p class="text-muted">
+                        &copy; 2022 Bus Ticket
+                        <br />
+                        <br />
+                    </p>
+                </div>
+                <!--end of col-->
+                <div class="col-12 col-md-9">
+                    <span class="h5">The world's first online platform for runners</span>
+                    <div class="row no-gutters">
+                        <div class="col-6 col-lg-3">
+                            <h6>Navigate</h6>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a asp-area="" asp-controller="Home"
+                                       asp-action="Index">Home</a>
+                                </li>
+                                <li>
+                                    <a asp-area="" asp-controller=""
+                                       asp-action="Index">Check Bus Time</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <!--end of col-->
+                        <div class="col-6 col-lg-3">
+                            <h6>Ticket</h6>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a asp-area="" asp-controller="Club"
+                                       asp-action="Check">Check Tickets</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <!--end of col-->
+                        <div class="col-6 col-lg-3">
+                            <h6>Social</h6>
+                            <ul class="list-unstyled">
+
+                                <li>
+                                    <a href="/blog">Blog</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--end of col-->
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of col-->
+            </div>
+            <!--end of row-->
+        </div>
+        <!--end of container-->
+    </footer>
+    </div>
+    <script src="~/js/jquery.min.js"></script>
+    <script src="~/js/bootstrap.js"></script>
+    <script src="~/js/theme.js"></script>
+    <script src="~/js/custom.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

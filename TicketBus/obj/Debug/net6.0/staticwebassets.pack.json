@@ -1,0 +1,1153 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TicketBus.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TicketBus.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\css\\custom.css",
+      "PackagePath": "staticwebassets\\css\\custom.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\css\\entypo.css",
+      "PackagePath": "staticwebassets\\css\\entypo.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\css\\flickity.min.css",
+      "PackagePath": "staticwebassets\\css\\flickity.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\css\\socicon.css",
+      "PackagePath": "staticwebassets\\css\\socicon.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\css\\theme.css",
+      "PackagePath": "staticwebassets\\css\\theme.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\css\\theme.css.map",
+      "PackagePath": "staticwebassets\\css\\theme.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\fonts\\entypo.eot",
+      "PackagePath": "staticwebassets\\fonts\\entypo.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\fonts\\entypo.svg",
+      "PackagePath": "staticwebassets\\fonts\\entypo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\fonts\\entypo.ttf",
+      "PackagePath": "staticwebassets\\fonts\\entypo.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\fonts\\entypo.woff",
+      "PackagePath": "staticwebassets\\fonts\\entypo.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\fonts\\entypo.woff2",
+      "PackagePath": "staticwebassets\\fonts\\entypo.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\fonts\\socicon.eot",
+      "PackagePath": "staticwebassets\\fonts\\socicon.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\fonts\\socicon.svg",
+      "PackagePath": "staticwebassets\\fonts\\socicon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\fonts\\socicon.ttf",
+      "PackagePath": "staticwebassets\\fonts\\socicon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\fonts\\socicon.woff",
+      "PackagePath": "staticwebassets\\fonts\\socicon.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\article-knowledge-1.jpg",
+      "PackagePath": "staticwebassets\\img\\article-knowledge-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\article-knowledge-2.jpg",
+      "PackagePath": "staticwebassets\\img\\article-knowledge-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\avatar-female-1.jpg",
+      "PackagePath": "staticwebassets\\img\\avatar-female-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\avatar-female-2.jpg",
+      "PackagePath": "staticwebassets\\img\\avatar-female-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\avatar-female-3.jpg",
+      "PackagePath": "staticwebassets\\img\\avatar-female-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\avatar-female-4.jpg",
+      "PackagePath": "staticwebassets\\img\\avatar-female-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\avatar-female-5.jpg",
+      "PackagePath": "staticwebassets\\img\\avatar-female-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\avatar-female-6.jpg",
+      "PackagePath": "staticwebassets\\img\\avatar-female-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\avatar-male-1.jpg",
+      "PackagePath": "staticwebassets\\img\\avatar-male-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\avatar-male-2.jpg",
+      "PackagePath": "staticwebassets\\img\\avatar-male-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\avatar-male-3.jpg",
+      "PackagePath": "staticwebassets\\img\\avatar-male-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\avatar-male-4.jpg",
+      "PackagePath": "staticwebassets\\img\\avatar-male-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\avatar-male-5.jpg",
+      "PackagePath": "staticwebassets\\img\\avatar-male-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\avatar-male-6.jpg",
+      "PackagePath": "staticwebassets\\img\\avatar-male-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-bg-city.svg",
+      "PackagePath": "staticwebassets\\img\\graphic-bg-city.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-bg-clouds-1.png",
+      "PackagePath": "staticwebassets\\img\\graphic-bg-clouds-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-bg-clouds-2.png",
+      "PackagePath": "staticwebassets\\img\\graphic-bg-clouds-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-bg-clouds-3.png",
+      "PackagePath": "staticwebassets\\img\\graphic-bg-clouds-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-bg-clouds-4.png",
+      "PackagePath": "staticwebassets\\img\\graphic-bg-clouds-4.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-bg-clouds-5.png",
+      "PackagePath": "staticwebassets\\img\\graphic-bg-clouds-5.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-bg-clouds-white.svg",
+      "PackagePath": "staticwebassets\\img\\graphic-bg-clouds-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-bike.svg",
+      "PackagePath": "staticwebassets\\img\\graphic-bike.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-credit-card.png",
+      "PackagePath": "staticwebassets\\img\\graphic-credit-card.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-desktop.svg",
+      "PackagePath": "staticwebassets\\img\\graphic-desktop.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-developer-bootstrap.png",
+      "PackagePath": "staticwebassets\\img\\graphic-developer-bootstrap.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-developer-group.png",
+      "PackagePath": "staticwebassets\\img\\graphic-developer-group.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-developer-group.svg",
+      "PackagePath": "staticwebassets\\img\\graphic-developer-group.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-developer-gulp.png",
+      "PackagePath": "staticwebassets\\img\\graphic-developer-gulp.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-developer-html5.png",
+      "PackagePath": "staticwebassets\\img\\graphic-developer-html5.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-developer-sass.png",
+      "PackagePath": "staticwebassets\\img\\graphic-developer-sass.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-devices.svg",
+      "PackagePath": "staticwebassets\\img\\graphic-devices.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-envelope.svg",
+      "PackagePath": "staticwebassets\\img\\graphic-envelope.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-fingerprint.svg",
+      "PackagePath": "staticwebassets\\img\\graphic-fingerprint.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-golden-gate-bridge.svg",
+      "PackagePath": "staticwebassets\\img\\graphic-golden-gate-bridge.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-group-1.png",
+      "PackagePath": "staticwebassets\\img\\graphic-group-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-group-2.png",
+      "PackagePath": "staticwebassets\\img\\graphic-group-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-imac-interface.svg",
+      "PackagePath": "staticwebassets\\img\\graphic-imac-interface.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-intro-code.png",
+      "PackagePath": "staticwebassets\\img\\graphic-intro-code.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-intro-ipad.png",
+      "PackagePath": "staticwebassets\\img\\graphic-intro-ipad.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-intro-plugins.png",
+      "PackagePath": "staticwebassets\\img\\graphic-intro-plugins.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-intro-widgets.png",
+      "PackagePath": "staticwebassets\\img\\graphic-intro-widgets.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-laptop.svg",
+      "PackagePath": "staticwebassets\\img\\graphic-laptop.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-man-box.svg",
+      "PackagePath": "staticwebassets\\img\\graphic-man-box.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-man-computer.svg",
+      "PackagePath": "staticwebassets\\img\\graphic-man-computer.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-phone-actions.svg",
+      "PackagePath": "staticwebassets\\img\\graphic-phone-actions.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-photos.svg",
+      "PackagePath": "staticwebassets\\img\\graphic-photos.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-product-bench-thumb.jpg",
+      "PackagePath": "staticwebassets\\img\\graphic-product-bench-thumb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-product-bench.jpg",
+      "PackagePath": "staticwebassets\\img\\graphic-product-bench.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-product-kin-thumb.jpg",
+      "PackagePath": "staticwebassets\\img\\graphic-product-kin-thumb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-product-kin.jpg",
+      "PackagePath": "staticwebassets\\img\\graphic-product-kin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-product-paydar-thumb.jpg",
+      "PackagePath": "staticwebassets\\img\\graphic-product-paydar-thumb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-product-paydar.jpg",
+      "PackagePath": "staticwebassets\\img\\graphic-product-paydar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-product-pipeline-thumb.jpg",
+      "PackagePath": "staticwebassets\\img\\graphic-product-pipeline-thumb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-product-pipeline.jpg",
+      "PackagePath": "staticwebassets\\img\\graphic-product-pipeline.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-product-pitstop-thumb.jpg",
+      "PackagePath": "staticwebassets\\img\\graphic-product-pitstop-thumb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-product-pitstop.jpg",
+      "PackagePath": "staticwebassets\\img\\graphic-product-pitstop.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-product-sidekick-thumb.jpg",
+      "PackagePath": "staticwebassets\\img\\graphic-product-sidekick-thumb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-product-sidekick.jpg",
+      "PackagePath": "staticwebassets\\img\\graphic-product-sidekick.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-woman-phone.svg",
+      "PackagePath": "staticwebassets\\img\\graphic-woman-phone.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-woman-writing-2.svg",
+      "PackagePath": "staticwebassets\\img\\graphic-woman-writing-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\graphic-woman-writing.svg",
+      "PackagePath": "staticwebassets\\img\\graphic-woman-writing.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\logo-bench.svg",
+      "PackagePath": "staticwebassets\\img\\logo-bench.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\logo-dark-gray.svg",
+      "PackagePath": "staticwebassets\\img\\logo-dark-gray.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\logo-dropbox.svg",
+      "PackagePath": "staticwebassets\\img\\logo-dropbox.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\logo-facebook.svg",
+      "PackagePath": "staticwebassets\\img\\logo-facebook.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\logo-google.svg",
+      "PackagePath": "staticwebassets\\img\\logo-google.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\logo-gray.svg",
+      "PackagePath": "staticwebassets\\img\\logo-gray.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\logo-instagram.svg",
+      "PackagePath": "staticwebassets\\img\\logo-instagram.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\logo-intercom.png",
+      "PackagePath": "staticwebassets\\img\\logo-intercom.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\logo-invision.png",
+      "PackagePath": "staticwebassets\\img\\logo-invision.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\logo-movend.svg",
+      "PackagePath": "staticwebassets\\img\\logo-movend.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\logo-payment-amex.svg",
+      "PackagePath": "staticwebassets\\img\\logo-payment-amex.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\logo-payment-visa.svg",
+      "PackagePath": "staticwebassets\\img\\logo-payment-visa.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\logo-paypal.png",
+      "PackagePath": "staticwebassets\\img\\logo-paypal.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\logo-pitstop.svg",
+      "PackagePath": "staticwebassets\\img\\logo-pitstop.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\logo-sketch.svg",
+      "PackagePath": "staticwebassets\\img\\logo-sketch.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\logo-slack.png",
+      "PackagePath": "staticwebassets\\img\\logo-slack.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\logo-slack.svg",
+      "PackagePath": "staticwebassets\\img\\logo-slack.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\logo-snapchat.svg",
+      "PackagePath": "staticwebassets\\img\\logo-snapchat.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\logo-soundcloud.svg",
+      "PackagePath": "staticwebassets\\img\\logo-soundcloud.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\logo-spotify.svg",
+      "PackagePath": "staticwebassets\\img\\logo-spotify.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\logo-w-gradient.svg",
+      "PackagePath": "staticwebassets\\img\\logo-w-gradient.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\logo-w-white.svg",
+      "PackagePath": "staticwebassets\\img\\logo-w-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\logo-white.svg",
+      "PackagePath": "staticwebassets\\img\\logo-white.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\app-account-create-alternative.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\app-account-create-alternative.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\app-account-create.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\app-account-create.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\app-account-login.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\app-account-login.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\app-account-reset-password.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\app-account-reset-password.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\app-account-settings-hero.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\app-account-settings-hero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\app-account-settings.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\app-account-settings.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\app-chat.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\app-chat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\app-collection-cards.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\app-collection-cards.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\app-collection-empty-state.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\app-collection-empty-state.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\app-collection-list-hero.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\app-collection-list-hero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\app-collection-list.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\app-collection-list.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\app-collection-people.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\app-collection-people.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\app-collection-table-alternative.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\app-collection-table-alternative.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\app-collection-table.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\app-collection-table.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\app-discussion-list-hero.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\app-discussion-list-hero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\app-discussion-list.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\app-discussion-list.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\app-discussion-thread.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\app-discussion-thread.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\app-docs-article.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\app-docs-article.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\app-docs-landing-hero.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\app-docs-landing-hero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\app-docs-landing.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\app-docs-landing.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\app-invoice.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\app-invoice.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\app-item-detail-alternative-1.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\app-item-detail-alternative-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\app-item-detail-alternative-2.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\app-item-detail-alternative-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\app-item-detail.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\app-item-detail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\app-profile-creator-alternative.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\app-profile-creator-alternative.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\app-profile-creator.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\app-profile-creator.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\app-profile-public.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\app-profile-public.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\app-profile-social-hero.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\app-profile-social-hero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\app-profile-social.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\app-profile-social.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\app-project-detail-hero.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\app-project-detail-hero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\app-project-detail.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\app-project-detail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\app-project-list.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\app-project-list.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\app-wizard-onboarding-alternative.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\app-wizard-onboarding-alternative.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\app-wizard-onboarding.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\app-wizard-onboarding.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\blog-grid-hero.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\blog-grid-hero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\blog-grid.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\blog-grid.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\blog-single.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\blog-single.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\career-single.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\career-single.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\careers.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\careers.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\case-studies.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\case-studies.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\case-study-single.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\case-study-single.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\company-detailed.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\company-detailed.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\company-simple-hero.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\company-simple-hero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\company-simple.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\company-simple.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\docs-article.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\docs-article.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\docs.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\docs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\index.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\index.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\item-detail-alternative-2.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\item-detail-alternative-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\landing-1-hero.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\landing-1-hero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\landing-1.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\landing-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\landing-2-hero.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\landing-2-hero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\landing-2.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\landing-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\landing-3.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\landing-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\landing-4.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\landing-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\landing-5.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\landing-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\landing-6.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\landing-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\landing-7.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\landing-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\landing-8-hero.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\landing-8-hero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\landing-8.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\landing-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\landing-9-hero.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\landing-9-hero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\landing-9.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\landing-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\landing-coming-soon-1.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\landing-coming-soon-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\landing-coming-soon-2.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\landing-coming-soon-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\pricing-compare.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\pricing-compare.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\pricing-simple.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\pricing-simple.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\overview\\pricing-tabbed.jpg",
+      "PackagePath": "staticwebassets\\img\\overview\\pricing-tabbed.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\photo-beach.jpg",
+      "PackagePath": "staticwebassets\\img\\photo-beach.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\photo-couple-couch.jpg",
+      "PackagePath": "staticwebassets\\img\\photo-couple-couch.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\photo-group-3.jpg",
+      "PackagePath": "staticwebassets\\img\\photo-group-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\photo-man-book.jpg",
+      "PackagePath": "staticwebassets\\img\\photo-man-book.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\photo-man-box.jpg",
+      "PackagePath": "staticwebassets\\img\\photo-man-box.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\photo-man-couch.jpg",
+      "PackagePath": "staticwebassets\\img\\photo-man-couch.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\photo-man-diary.jpg",
+      "PackagePath": "staticwebassets\\img\\photo-man-diary.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\photo-man-laptop.jpg",
+      "PackagePath": "staticwebassets\\img\\photo-man-laptop.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\photo-man-meeting.jpg",
+      "PackagePath": "staticwebassets\\img\\photo-man-meeting.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\photo-man-phone.jpg",
+      "PackagePath": "staticwebassets\\img\\photo-man-phone.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\photo-man-whiteboard.jpg",
+      "PackagePath": "staticwebassets\\img\\photo-man-whiteboard.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\photo-road.jpg",
+      "PackagePath": "staticwebassets\\img\\photo-road.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\photo-room-table.jpg",
+      "PackagePath": "staticwebassets\\img\\photo-room-table.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\photo-team-desk-blog.jpg",
+      "PackagePath": "staticwebassets\\img\\photo-team-desk-blog.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\photo-team-desk.jpg",
+      "PackagePath": "staticwebassets\\img\\photo-team-desk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\photo-team-female-1.jpg",
+      "PackagePath": "staticwebassets\\img\\photo-team-female-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\photo-team-female-2.jpg",
+      "PackagePath": "staticwebassets\\img\\photo-team-female-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\photo-team-female-3.jpg",
+      "PackagePath": "staticwebassets\\img\\photo-team-female-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\photo-team-male-1.jpg",
+      "PackagePath": "staticwebassets\\img\\photo-team-male-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\photo-team-male-2.jpg",
+      "PackagePath": "staticwebassets\\img\\photo-team-male-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\photo-team-male-3.jpg",
+      "PackagePath": "staticwebassets\\img\\photo-team-male-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\photo-woman-cafe.jpg",
+      "PackagePath": "staticwebassets\\img\\photo-woman-cafe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\photo-woman-hat.jpg",
+      "PackagePath": "staticwebassets\\img\\photo-woman-hat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\photo-woman-kitchen.jpg",
+      "PackagePath": "staticwebassets\\img\\photo-woman-kitchen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\photo-woman-laptop.jpg",
+      "PackagePath": "staticwebassets\\img\\photo-woman-laptop.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\photo-woman-rock.jpg",
+      "PackagePath": "staticwebassets\\img\\photo-woman-rock.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\photo-woman-sand.jpg",
+      "PackagePath": "staticwebassets\\img\\photo-woman-sand.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\photo-woman-writing.jpg",
+      "PackagePath": "staticwebassets\\img\\photo-woman-writing.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\racesEvent.png",
+      "PackagePath": "staticwebassets\\img\\racesEvent.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\rungroopclub.png",
+      "PackagePath": "staticwebassets\\img\\rungroopclub.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\social-share-facebook.svg",
+      "PackagePath": "staticwebassets\\img\\social-share-facebook.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\social-share-linkedin.svg",
+      "PackagePath": "staticwebassets\\img\\social-share-linkedin.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\social-share-pocket.svg",
+      "PackagePath": "staticwebassets\\img\\social-share-pocket.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\img\\social-share-twitter.svg",
+      "PackagePath": "staticwebassets\\img\\social-share-twitter.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\js\\aos.js",
+      "PackagePath": "staticwebassets\\js\\aos.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\js\\flatpickr.min.js",
+      "PackagePath": "staticwebassets\\js\\flatpickr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\js\\flickity.pkgd.js",
+      "PackagePath": "staticwebassets\\js\\flickity.pkgd.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\js\\flickity.pkgd.min.js",
+      "PackagePath": "staticwebassets\\js\\flickity.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\js\\jarallax-element.min.js",
+      "PackagePath": "staticwebassets\\js\\jarallax-element.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\js\\jarallax-element.min.js.map",
+      "PackagePath": "staticwebassets\\js\\jarallax-element.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\js\\jarallax-video.min.js",
+      "PackagePath": "staticwebassets\\js\\jarallax-video.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\js\\jarallax-video.min.js.map",
+      "PackagePath": "staticwebassets\\js\\jarallax-video.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\js\\jarallax.min.js",
+      "PackagePath": "staticwebassets\\js\\jarallax.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\js\\jarallax.min.js.map",
+      "PackagePath": "staticwebassets\\js\\jarallax.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\js\\jquery.smartWizard.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.smartWizard.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\js\\popper.min.js.map",
+      "PackagePath": "staticwebassets\\js\\popper.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\js\\prism.js",
+      "PackagePath": "staticwebassets\\js\\prism.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\js\\scrollMonitor.js",
+      "PackagePath": "staticwebassets\\js\\scrollMonitor.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\js\\scrollMonitor.js.map",
+      "PackagePath": "staticwebassets\\js\\scrollMonitor.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\js\\smooth-scroll.polyfills.min.js",
+      "PackagePath": "staticwebassets\\js\\smooth-scroll.polyfills.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\js\\theme.js",
+      "PackagePath": "staticwebassets\\js\\theme.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\js\\theme.js.map",
+      "PackagePath": "staticwebassets\\js\\theme.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\js\\zoom-vanilla.min.js",
+      "PackagePath": "staticwebassets\\js\\zoom-vanilla.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\js\\zoom.min.js",
+      "PackagePath": "staticwebassets\\js\\zoom.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\TicketBus\\TicketBus\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.TicketBus.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.TicketBus.props",
+      "PackagePath": "build\\TicketBus.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.TicketBus.props",
+      "PackagePath": "buildMultiTargeting\\TicketBus.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.TicketBus.props",
+      "PackagePath": "buildTransitive\\TicketBus.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

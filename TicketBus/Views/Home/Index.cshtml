@@ -1,0 +1,410 @@
+﻿@model List<Routes>
+@{
+    ViewBag.Title = "Bus Booking Ticket Online";
+}
+<style type="text/css">
+    body {
+        background-image: linear-gradient(to right, #7B1FA2, #E91E63)
+    }
+
+    .section {
+        position: relative;
+        height: 100vh;
+    }
+
+        .section .section-center {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+
+    #booking {
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .booking-form {
+        position: relative;
+        max-width: 642px;
+        width: 100%;
+        margin: auto;
+        padding: 40px;
+        overflow: hidden;
+        background-image: url('https://i.imgur.com/8z1tx3u.jpg');
+        background-size: cover;
+        border-radius: 5px;
+        z-index: 20;
+    }
+
+        .booking-form::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: -1;
+        }
+
+        .booking-form .form-header {
+            text-align: center;
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+            .booking-form .form-header h1 {
+                font-weight: 700;
+                text-transform: capitalize;
+                font-size: 42px;
+                margin: 0px;
+                color: #fff;
+            }
+
+        .booking-form .form-group {
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        .booking-form .form-control {
+            background-color: rgba(255, 255, 255, 0.2);
+            height: 60px;
+            padding: 0px 25px;
+            border: none;
+            border-radius: 40px;
+            color: #fff;
+            -webkit-box-shadow: 0px 0px 0px 2px transparent;
+            box-shadow: 0px 0px 0px 2px transparent;
+            -webkit-transition: 0.2s;
+            transition: 0.2s;
+        }
+
+            .booking-form .form-control::-webkit-input-placeholder {
+                color: rgba(255, 255, 255, 0.5);
+            }
+
+            .booking-form .form-control:-ms-input-placeholder {
+                color: rgba(255, 255, 255, 0.5);
+            }
+
+            .booking-form .form-control::placeholder {
+                color: rgba(255, 255, 255, 0.5);
+            }
+
+            .booking-form .form-control:focus {
+                -webkit-box-shadow: 0px 0px 0px 2px #ff8846;
+                box-shadow: 0px 0px 0px 2px #ff8846;
+            }
+
+        .booking-form input[type="date"].form-control {
+            padding-top: 16px;
+        }
+
+            .booking-form input[type="date"].form-control:invalid {
+                color: rgba(255, 255, 255, 0.5);
+            }
+
+            .booking-form input[type="date"].form-control + .form-label {
+                opacity: 1;
+                top: 10px;
+            }
+
+        .booking-form select.form-control {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+        }
+
+            .booking-form select.form-control:invalid {
+                color: rgba(255, 255, 255, 0.5);
+            }
+
+            .booking-form select.form-control + .select-arrow {
+                position: absolute;
+                right: 15px;
+                top: 50%;
+                -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+                width: 32px;
+                line-height: 32px;
+                height: 32px;
+                text-align: center;
+                pointer-events: none;
+                color: rgba(255, 255, 255, 0.5);
+                font-size: 14px;
+            }
+
+                .booking-form select.form-control + .select-arrow:after {
+                    content: '\279C';
+                    display: block;
+                    -webkit-transform: rotate(90deg);
+                    transform: rotate(90deg);
+                }
+
+            .booking-form select.form-control option {
+                color: #000;
+            }
+
+        .booking-form .form-label {
+            position: absolute;
+            top: -10px;
+            left: 25px;
+            opacity: 0;
+            color: #ff8846;
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.3px;
+            height: 15px;
+            line-height: 15px;
+            -webkit-transition: 0.2s all;
+            transition: 0.2s all;
+        }
+
+        .booking-form .form-group.input-not-empty .form-control {
+            padding-top: 16px;
+        }
+
+        .booking-form .form-group.input-not-empty .form-label {
+            opacity: 1;
+            top: 10px;
+        }
+
+        .booking-form .submit-btn {
+            color: #fff;
+            background-color: #e35e0a;
+            font-weight: 700;
+            height: 60px;
+            padding: 10px 30px;
+            width: 100%;
+            border-radius: 40px;
+            border: none;
+            text-transform: uppercase;
+            font-size: 16px;
+            letter-spacing: 1.3px;
+            -webkit-transition: 0.2s all;
+            transition: 0.2s all;
+        }
+
+            .booking-form .submit-btn:hover,
+            .booking-form .submit-btn:focus {
+                opacity: 0.9;
+            }
+</style>
+<div id="booking" class="section">
+    <div class="section-center">
+        <div class="container">
+            <div class="row">
+                <div class="booking-form">
+                    <div class="form-header">
+                        <h1>Make your reservation</h1>
+                    </div>
+                    <form asp-action="GetBus" asp-controller="Bus" method="Post">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-inline">
+                                    <div class="form-group">
+                                        <select  name="startPoint" id="startPointSelect" class="form-control" required>
+                                            <option value="" selected hidden>From</option>
+                                            @if (Model != null)
+                                            {
+                                                @foreach (var item in Model)
+                                                {
+                                                            <option value="@item.start_point" asp-for="startPoint">@item.start_point</option>
+                                                }
+                                            }
+                                            else
+                                            {
+                                                <option value="">Not have a start point</option>
+                                            }
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <div class="form-inline">
+                                    <div class="form-group">
+                                <!-- Dùng lớp ml-2 để tạo khoảng cách giữa hai ô select -->
+                                <select name="endPointSelect" id="endPointSelect" class="form-control" required>
+                                    <option value="" selected hidden>To</option>
+                                    <option value="endPointSelect" selected hidden></option>
+                                </select>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <input type="hidden" id="routeid" name="routeid" value="" />
+
+                        <div class="row" style="color: white;">
+                            <div class="col-md-12">
+                                <div class="form-group col-md-6">
+                                    <label>Choose:</label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="option" id="1C" value="1C" checked> 1 Chiều
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="option" id="2C" value="2C"> Khứ hồi
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input name="ngaydi" class="form-control" type="date" required>
+                                    <span class="form-label">Check In</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input name="ngayve" class="form-control" type="date" required>
+                                    <span class="form-label">Check Out</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-btn">
+                            <button class="submit-btn" type="submit">Find bus</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#startPointSelect").change(function () {
+            var selectedStartPoint = $(this).val();
+
+            $.ajax({
+                url: '@Url.Action("GetEndPoints", "Home")',
+                type: 'GET',
+                data: { startPoint: selectedStartPoint },
+                success: function (data) {
+                    $("#endPointSelect").empty();
+
+                    // Thêm tùy chọn ẩn cho ô select điểm đến
+                    $("#endPointSelect").append('<option value="" selected hidden>To</option>');
+
+                    $.each(data, function (index, value) {
+                        $("#endPointSelect").append('<option value="' + value + '">' + value + '</option>');
+                    });
+                }
+            });
+        });
+    });
+    
+</script>
+@*<script>
+    $(document).ready(function () {
+        $("#startPointSelect").change(function () {
+            var selectedStartPoint = $(this).val();
+
+            $.ajax({
+                url: '@Url.Action("GetRouteName", "Home")',
+                type: 'GET',
+                data: { startPoint: selectedStartPoint },
+                success: function (data) {
+                    $("#endPointSelect").empty();
+
+                    // Thêm tùy chọn ẩn cho ô select điểm đến
+                    $("#endPointSelect").append('<option value="" selected hidden>To</option>');
+
+                    $.each(data, function (index, value) {
+                        $("#endPointSelect").append('<option value="' + value + '">' + value + '</option>');
+                    });
+                }
+            });
+        });
+    });
+
+</script>*@
+<script>
+    $(document).ready(function () {
+        $("#startPointSelect").change(function () {
+            var selectedStartPoint = $(this).val();
+
+            $.ajax({
+                url: '@Url.Action("GetEndPoints", "Home")', // Correct the action name to "GetEndPoints"
+                type: 'GET',
+                data: { startPoint: selectedStartPoint },
+                success: function (data) {
+                    $("#endPointSelect").empty();
+
+                    // Thêm tùy chọn ẩn cho ô select điểm đến
+                    $("#endPointSelect").append('<option value="" selected hidden>To</option>');
+
+                    $.each(data, function (index, value) {
+                        $("#endPointSelect").append('<option value="' + value.end_point + '">' + value.end_point + '</option>');
+                    });
+
+                    // Add a change event handler for the endPointSelect dropdown
+                    $("#endPointSelect").change(function () {
+                        // Get the selected option's text (which contains both route_name and end_point)
+                        var selectedOptionText = $(this).children("option:selected").text();
+
+                        // Extract the route_name from the selected option's text (assuming it's separated by ' - ')
+                        var routeName = selectedOptionText.split(' - ')[0];
+
+                        // Set the value of the hidden input field to the extracted route_name
+                        $("#routeid").val(routeName);
+                    });
+                }
+            });
+        });
+    });
+</script>
+<script>
+    // Lắng nghe sự kiện khi người dùng thay đổi chế độ (1 chiều hoặc khứ hồi)
+    const radioButton1C = document.getElementById('1C');
+    const ngayveInput = document.getElementsByName('ngayve')[0];
+
+    radioButton1C.addEventListener('change', function () {
+        // Nếu chọn 1 chiều, loại bỏ thuộc tính "required" cho trường ngày về
+        ngayveInput.removeAttribute('required');
+    });
+
+    const radioButton2C = document.getElementById('2C');
+    radioButton2C.addEventListener('change', function () {
+        // Nếu chọn khứ hồi, thêm thuộc tính "required" cho trường ngày về
+        ngayveInput.setAttribute('required', 'required');
+    });
+
+    // Kiểm tra giá trị ban đầu của ô radio khi trang tải lần đầu
+    if (radioButton1C.checked) {
+        ngayveInput.removeAttribute('required');
+    } else if (radioButton2C.checked) {
+        ngayveInput.setAttribute('required', 'required');
+    }
+</script>
+<script>
+    $(document).ready(function () {
+        // Đảm bảo trạng thái ban đầu khi load trang
+        var selectedOption = $("input[name='option']:checked").val();
+        var ngayVeField = $("input[name='ngayve']").closest(".form-group");
+        if (selectedOption === "1C") {
+            $("#2C").prop("checked", false);
+            ngayVeField.hide();
+        } else if (selectedOption === "2C") {
+            $("#1C").prop("checked", false);
+            ngayVeField.show();
+        }
+
+        $("input[name='option']").change(function () {
+            var selectedOption = $(this).val();
+            var ngayVeField = $("input[name='ngayve']").closest(".form-group");
+
+            if (selectedOption === "1C") {
+                $("#2C").prop("checked", false);
+                ngayVeField.hide();
+            } else if (selectedOption === "2C") {
+                $("#1C").prop("checked", false);
+                ngayVeField.show();
+            }
+        });
+    });
+</script>
